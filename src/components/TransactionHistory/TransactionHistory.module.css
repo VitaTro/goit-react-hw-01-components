@@ -19,6 +19,9 @@ table {
 thead{
     background-color: #7accf3;
     color: #fff;
+    text-align: center;
+   
+    height: 35px;
   } 
   th:first-child{
     border-top-left-radius: 15px;
