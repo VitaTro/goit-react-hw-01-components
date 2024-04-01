@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/VitaTro/goit-react-hw-01-components/static/css/main.da09fe14.css",
+    "main.css": "/VitaTro/goit-react-hw-01-components/static/css/main.89e68886.css",
     "main.js": "/VitaTro/goit-react-hw-01-components/static/js/main.a8e496b9.js",
     "index.html": "/VitaTro/goit-react-hw-01-components/index.html",
-    "main.da09fe14.css.map": "/VitaTro/goit-react-hw-01-components/static/css/main.da09fe14.css.map",
+    "main.89e68886.css.map": "/VitaTro/goit-react-hw-01-components/static/css/main.89e68886.css.map",
     "main.a8e496b9.js.map": "/VitaTro/goit-react-hw-01-components/static/js/main.a8e496b9.js.map"
   },
   "entrypoints": [
-    "static/css/main.da09fe14.css",
+    "static/css/main.89e68886.css",
     "static/js/main.a8e496b9.js"
   ]
 }
