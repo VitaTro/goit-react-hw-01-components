@@ -1,9 +1,9 @@
 .profile {
     margin: auto;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
+    border-radius: 15px;
     width:350px;
     background-color: #ffffff;
-    border-radius: 5px;
     font-family: "Roboto", sans-serif;
     letter-spacing: 0.01em;
     box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 
@@ -13,44 +13,53 @@
   }
   
   .description {
-    padding: 25px;
+ padding-top: 30px;
+ justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
   
   .avatar {
-    width: 100px;
-    height: 100px;
+    width: 40%;
+    height: 50%;
     border-radius: 50%;
     margin: auto;
     border: 1px solid #000000;
-    margin-bottom: 10px;
+    margin-bottom: 3cqmax;
   }
   
   .name {
-    font-size: 20px;
-    font-weight: 700;
+    font-size: 25px;
+font-weight: 600;
+padding: 0;
+margin: 0;
   }
   
   .tag {
-    font-size: 14px;
+    font-size: 15px;
     color: #8B8A8A;
+    padding: 0;
+    margin-bottom: 5px;
   }
   
   .location {
-    font-size: 14px;
+    font-size: 15px;
     color: #8B8A8A;
+    padding: 0;
+margin-bottom: 25px;
   }
   
   .stats {
     background-color: #EFF2F3;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 72px;
     border-top: 1px solid #C3C5C5;
+    padding: 0;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
   }
   
   .stats li {
@@ -64,9 +73,9 @@
   .stats li:not(:last-child) {
     border-right: 1px solid #C3C5C5;
   }
-  
   .label {
-    font-size: 10px;
+    font-size: 15px;
+    margin-bottom: 5px;
     color: #8B8A8A;
   }
   
