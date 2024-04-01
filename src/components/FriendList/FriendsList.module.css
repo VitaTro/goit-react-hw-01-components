@@ -1,0 +1,18 @@
+.friend-list {
+    margin: auto;
+padding: 20px;
+margin-bottom: 15px ;
+border-radius: 15px;
+width: 310px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10px;
+background-color: #fff;
+font-family: "Roboto", sans-serif;
+
+box-shadow:  1px 6px 0px rgba(46, 47, 66, 0.08), 
+0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
+0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
+

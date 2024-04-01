@@ -1,0 +1,44 @@
+.item {
+    font-family: "Roboto", sans-serif;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    gap: 10px;
+    box-shadow:  1px 6px 0px rgba(46, 47, 66, 0.08), 
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
+    0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+}
+.status{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /*composes: status; - в даному випадку визначає, що якщо ця людина онлайн, щоб світилось зеленим
+  а офлайн відповідно червоним.
+  цей клас діє ТІЛЬКИ до .status   */
+  
+  .online{
+    composes: status;
+    background-color: green;
+  }
+  
+  .offline {
+    composes: status;
+    background-color: red
+  }
+.avatar {
+width: 20%;
+height: 20%;
+
+}
+.name {
+font-size: 25px;
+margin-left: 25px;
+}
